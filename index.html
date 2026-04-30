@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuratech LLC | Mobile App Development</title>
+    <meta name="description" content="Vuratech LLC is a Wyoming-based technology company specializing in innovative mobile applications.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">Vuratech<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-container">
+            <h1 class="hero-title">Crafting the Future of <span>Mobile Experiences</span></h1>
+            <p class="hero-subtitle">Vuratech LLC is a forward-thinking technology company based in Wyoming, USA, dedicated to building innovative, user-centric mobile applications.</p>
+            <div class="hero-actions">
+                <a href="#products" class="btn btn-primary">Our Products</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="glass-card about-content">
+                <h2>About Vuratech</h2>
+                <p>Registered as a Limited Liability Company in Wyoming, USA, Vuratech was founded with a singular mission: to bridge the gap between complex technology and everyday utility.</p>
+                <p>We specialize in end-to-end mobile app development, from conceptualization and UI/UX design to robust backend integration and deployment.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>Wyoming</h3>
+                        <p>Registered Base</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Mobile First</h3>
+                        <p>Core Focus</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Innovation</h3>
+                        <p>Our Drive</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="section products-section">
+        <div class="container">
+            <h2 class="section-title">Upcoming Products</h2>
+            <div class="product-grid">
+                <div class="glass-card product-card">
+                    <div class="product-badge">Coming Soon</div>
+                    <div class="product-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    </div>
+                    <h3>iD App</h3>
+                    <p>Our flagship product is currently in stealth development. iD App is set to redefine how users manage their digital identity and connections.</p>
+                    <a href="#" class="product-link">Dedicated website launching soon &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="glass-card contact-card">
+                <h2>Get in Touch</h2>
+                <p>Interested in partnering with us or learning more about our upcoming releases?</p>
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent functionality will be connected soon.');">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h3>Vuratech LLC</h3>
+                <p>A Wyoming Limited Liability Company</p>
+                <p class="ein-note">Official IRS EIN Registered</p>
+            </div>
+            <div class="footer-links">
+                <p>Address: Wyoming, USA</p>
+                <p>Email: info@vuratech.app</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Vuratech LLC. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
